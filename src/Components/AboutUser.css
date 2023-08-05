@@ -1,0 +1,36 @@
+
+  .profile-description {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .fa {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .img-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  .icon-link:hover {
+    transform: scale(1.2); /* increase the size of the icon on hover */
+  }
+
+  @media (max-width: 800px) {
+    .row > div:nth-child(1) {
+      order: 2;
+      margin-bottom: 20px;
+    }
+    .row > div:nth-child(2) {
+      display: none;
+    }
+    .row > div:nth-child(3) {
+      width: 100%;
+    }
+  }
+  
+  
+  
